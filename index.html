@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <div id="inputbox" class="input-container">
+            <input type="text" id="input" value="">
+            <button id="start" class="start-class">Start</button>
+        </div>
+
+        <div id="event" class="button-container">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissor">Scissor</button>
+        </div>
+
+        <div id="computer">Computer chose:
+            <span id="computer-select"></span>
+        </div>
+
+        <div id="mid-result"></div>
+
+        <div>
+            <span>User Points:
+                <span id="user-point">0</span>
+            </span>
+
+            <span>Computer Points:
+                <span id="computer-point">0</span>
+            </span>
+        </div>
+
+        <div>
+            RoundsLeft:<span id="rounds-left">0</span>
+        </div>
+
+    </div>
+</body>
+</html>
